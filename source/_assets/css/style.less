@@ -1,0 +1,128 @@
+/*
+
+Author: Pierre Stoffe
+Website: http://pierrestoffe.be
+Theme name: Monte
+Theme description: Wordpress theme for photographers with minimal and classy needs
+Version: 1.0 alpha;
+
+*/
+
+html, body{
+	width: 100%;
+	font-family: 'PT Sans', Arial, sans-serif;
+	font-size: 14px;
+	line-height: 16px;
+	position: relative;
+}
+
+aside{
+	position: fixed;
+	width: 200px;
+	background: white;
+	z-index: 30;
+	top: 0;
+	left: 0;
+
+	.container{
+		position: absolute;
+		top: 0px;
+		left: 0px;
+		background: white;
+		width: 140px;
+		padding: 30px 30px;
+	}
+}
+
+a{
+	color: black;
+	text-decoration: none;
+
+	&:hover{
+		text-decoration: underline;
+	}
+}
+
+h1{
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 16px;
+}
+
+.space{
+	margin-top: 16px;
+}
+
+img{
+	width: 100%;
+	height: auto;
+	display: block;
+	cursor: e-resize;
+	z-index: 20;
+}
+
+#content, .view{
+	overflow: hidden;
+	position: relative;
+}
+
+@media only screen and (min-width: 501px) and (max-width: 800px){ // ipad portrait
+
+	aside{
+		left: 0px;
+		z-index: 30;
+		width: 100%;
+
+		.container{
+			width: 100%;
+		}
+	}
+
+	.bloc{
+		float: left;
+		width: 28%;
+
+		&:first-of-type{
+			width: 44%;
+		}
+	}
+
+	.space{
+		margin-top: 0;
+	}
+}
+
+@media only screen and (min-width: 501px) and (max-width: 600px){ // ipad portrait and little tablets
+	
+	.bloc{
+		width: 33%;
+
+		&:first-of-type{
+			width: 34%;
+		}
+	}
+}
+
+@media only screen and (max-width: 500px){ // iphone
+
+	aside{
+		width: 100%;
+		position: absolute;
+		bottom: 0px;
+		left: 0px;
+		z-index: 30;
+
+		.container{
+			width: 100%;
+			padding: 20px 0;
+		}
+	}
+
+	.bloc{
+		text-align: center;
+	}
+
+	.space{
+		margin-top: 20px;
+	}
+}
