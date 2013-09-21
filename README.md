@@ -8,6 +8,14 @@ Monte is a responsive Tumblr theme for photographers looking for a dead-simple w
 Nothing better than a demonstration to understand how simple Monte is, so [please visit this test page](http://monte-theme.tumblr.com). All photographs were kindly provided by 
 [Allie & David](http://deathtothestockphoto.com).
 
+## Features
+
+- Responsive (smartphone, tablet and desktop)
+- Dead-simple
+- Automatic images slider
+- Navigation by click, touch swipe or keyboard direction keys
+- Free of charge
+
 ## Installation
 
 Just head over the [Tumblr theme gallery]() and add Monte to your Tumblr website.
@@ -24,7 +32,7 @@ You've got two choices here:
 
 - You've got a [Typekit](https://typekit.com/fonts) subscription? Then you need to insert the 7-digit code relative to your new Kit into the 'Typekit code' field and set the font shortname into the 'Typekit font' field.
 
-- You're looking for a free solution? Then you just need to type the exact name of the [Google Web Font](http://www.google.com/fonts) you want into the 'Google Web Fonts' field (for example, PT Sans or Open Sans or Gudea) and the font code (same as the previous field but with spaces replaced by a +) into the 'Google Web Fonts shortcode' field (for example, PT+Sans or Open+Sans or Gudea).
+- You're looking for a free solution? Then you just need to type the exact name of the [Google Web Font](http://www.google.com/fonts) you want into the 'Google Web Fonts' field (for example, PT Sans or Open Sans or Gudea) and the font code (same as the previous field but with spaces replaced by a +) into the 'Google Web Fonts short' field (for example, PT+Sans or Open+Sans or Gudea).
 
 #### Google Analytics
 
