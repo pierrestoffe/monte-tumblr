@@ -1,4 +1,4 @@
-Monte
+Monte (in progress)
 ======
 
 Monte is a responsive Tumblr theme for photographers looking for a dead-simple way to efficiently showcase their best shots.
