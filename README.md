@@ -23,7 +23,8 @@ Once installed, you'll be able to add your personnal information: your name, you
 You've got two choices here:
 
 - You've got a [Typekit](https://typekit.com/fonts) subscription? Then you need to insert the 7-digit code relative to your new Kit into the 'Typekit code' field and set the font shortname into the 'Typekit font' field.
-- You're looking for a free solution? Then you just need to type the exact name of the [Google Web Font](http://www.google.com/fonts) you want (occasionnal spaces replaced by a +) into the 'Google Web Fonts' field (for example, PT+Sans or Open+Sans or Gudea).
+
+- You're looking for a free solution? Then you just need to type the exact name of the [Google Web Font](http://www.google.com/fonts) you want into the 'Google Web Fonts' field (for example, PT Sans or Open Sans or Gudea) and the font code (same as the previous field but with spaces replaced by a +) into the 'Google Web Fonts shortcode' field (for example, PT+Sans or Open+Sans or Gudea).
 
 #### Google Analytics
 
@@ -31,4 +32,5 @@ Interested in knowing who visits your website? Then you've probably already set 
 
 #### Any other ideas
 
-If you like CSS and have ideas to improve Monte, feel free to add your own custom CSS. And don't hesitate to fork this repo.
+If you like CSS and have ideas to improve Monte, feel free to add your own custom CSS. 
+And don't hesitate to fork this repo!
