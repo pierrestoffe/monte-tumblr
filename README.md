@@ -20,6 +20,10 @@ Nothing better than a demonstration to understand how simple Monte is, so [pleas
 
 Just head over the [Tumblr theme gallery]() and add Monte to your Tumblr website.
 
+## How to use
+
+Just add a new image post with only one image, no description or anything, then publish it. That's it.
+
 ## Customization
 
 #### Personal information
