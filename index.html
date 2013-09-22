@@ -1,97 +1,97 @@
 <!DOCTYPE html>
 <html>
     <head>
-        {MobileAppHeaders}
-        <meta name="text:Name" content="Your Name"/>
-        <meta name="text:Job" content="Photographer"/>
-        <meta name="text:Street and number" content="001 5th Avenue"/>
-        <meta name="text:City and ZIP" content="10000 New York, NY"/>
-        <meta name="text:Country" content="USA"/>
-        <meta name="text:Phone" content="(123)-456-789-10"/>
-        <meta name="text:Email" content="steve@apple.com"/>
-        
-        <meta name="text:Typekit code" content="XXXXXXX"/>
-        <meta name="text:Typekit font" content=""/>
-        <meta name="text:Google Web Fonts" content="PT Sans"/>
-        <meta name="text:Google Web Fonts short" content="PT+Sans"/>
-        
-        <meta name="text:Google Analytics ID" content="">
-        
-        <meta name="apple-mobile-web-app-capable" content="yes">
-        
-        <meta charset="utf-8">
-        <title>{text:Name} | {text:Job}</title>
-        {block:Description}
-            <meta name="description" content="{MetaDescription}">
-        {/block:Description}
-        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    	<link rel="apple-touch-icon-precomposed" href="{PortraitURL-128}" />
-    	<link rel="icon" href="{Favicon}" />
-    	<link rel="stylesheet" href="http://static.tumblr.com/kbkpvxu/7E4mthcgx/reset.min.css">
-        {block:IfGoogleWebFonts}
-            <link rel="stylesheet" href="http://fonts.googleapis.com/css?family={text:Google Web Fonts short}:400,700">
-        {/block:IfGoogleWebFonts}
-        {block:IfTypekitFont}
-            <script type="text/javascript" src="//use.typekit.net/{text:Typekit code}.js"></script>
-            <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
-        {/block:IfTypekitFont}
-    	<link rel="stylesheet" href="http://static.tumblr.com/kbkpvxu/jpnmthezb/style.css">
-        <script type="text/javascript" async="" src="http://www.google-analytics.com/ga.js"></script>
-        <!--[if lt IE 9]>
-                <script src="http://static.tumblr.com/hriofhd/Qj0m8pn7q/html5shiv.js"></script>
-        <![endif]-->
+		{MobileAppHeaders}
+		<meta name="text:Name" content="Your Name"/>
+		<meta name="text:Job" content="Photographer"/>
+		<meta name="text:Street and number" content="001 5th Avenue"/>
+		<meta name="text:City and ZIP" content="10000 New York, NY"/>
+		<meta name="text:Country" content="USA"/>
+		<meta name="text:Phone" content="(123)-456-789-10"/>
+		<meta name="text:Email" content="steve@apple.com"/>
+		
+		<meta name="text:Typekit code" content=""/>
+		<meta name="text:Typekit font" content=""/>
+		<meta name="text:Google Web Fonts" content="PT Sans"/>
+		<meta name="text:Google Web Fonts short" content="PT+Sans"/>
+		
+		<meta name="text:Google Analytics ID" content="">
+		
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		
+		<meta charset="utf-8">
+		<title>{text:Name} | {text:Job}</title>
+		{block:Description}
+			<meta name="description" content="{MetaDescription}">
+		{/block:Description}
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+		<link rel="apple-touch-icon-precomposed" href="{PortraitURL-128}" />
+		<link rel="icon" href="{Favicon}" />
+		<link rel="stylesheet" href="http://static.tumblr.com/kbkpvxu/7E4mthcgx/reset.min.css">
+		{block:IfGoogleWebFonts}
+			<link rel="stylesheet" href="http://fonts.googleapis.com/css?family={text:Google Web Fonts short}:400,700">
+		{/block:IfGoogleWebFonts}
+		{block:IfTypekitFont}
+			<script type="text/javascript" src="//use.typekit.net/{text:Typekit code}.js"></script>
+			<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+		{/block:IfTypekitFont}
+		<link rel="stylesheet" href="http://static.tumblr.com/kbkpvxu/ybYmtjaog/style.css">
+		<script type="text/javascript" async="" src="http://www.google-analytics.com/ga.js"></script>
+		<!--[if lt IE 9]>
+			<script src="http://static.tumblr.com/hriofhd/Qj0m8pn7q/html5shiv.js"></script>
+		<![endif]-->
 
-        <style>
-            {block:IfGoogleWebFonts}
-                body, html{font-family: '{text:Google Web Fonts}', sans-serif};
-            {/block:IfGoogleWebFonts}
-            {block:IfTypekitFont}
-                body, html{font-family: '{text:Typekit font}', sans-serif};
-            {/block:IfTypekitFont}
-            {CustomCSS}
-        </style>
-    </head>
-    <body>
-        <aside>
-        	<div class="container">
-    			<div class="bloc">
-    				<h1>{text:Name}</h1>
-    				<h2>{text:Job}</h2>
-    			</div>
-    			<div class="bloc">
-    				<div class="address road space">{text:Street and number}</div>
-    				<div class="address city">{text:City and ZIP}</div>
-    				<div class="address country">{text:Country}</div>
-    			</div>
-    			<div class="bloc">
-                     {block:IfPhone}
-    				<div class="contact phone space"><a href="skype:{text:Phone}">Call me</a></div>
-                     {/block:IfPhone}
-    				<div class="contact email"><a href="mailto:{text:Email}">Email me</a></div>
-    			</div>
-    		</div>
-    	</aside>
-    	<section id="content">
-    		<div class="view">
-    			{block:Posts}
-                    {block:Photo}
-                        <img src="{PhotoURL-HighRes}"/>
-                    {/block:Photo}
-                {/block:Posts}
-    		</div>
-    	</section>
-        <script src="http://static.tumblr.com/kbkpvxu/489mthcic/jquery.min.js"></script>
-        <script src="http://static.tumblr.com/kbkpvxu/Auimthcj8/touchwipe.min.js"></script>
-	    <script src="http://static.tumblr.com/kbkpvxu/51lmthcix/scripts.js"></script>
-        {block:IfGoogleAnalyticsID}
-            <script>
-              (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-              (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-              m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-              })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-              ga('create', '{text:Google Analytics ID}', 'tumblr.com');
-              ga('send', 'pageview');
-            </script>
-        {/block:IfGoogleAnalyticsID}
-    </body>
+		<style>
+			{block:IfGoogleWebFonts}
+				body, html{font-family: '{text:Google Web Fonts}', sans-serif};
+			{/block:IfGoogleWebFonts}
+			{block:IfTypekitFont}
+				body, html{font-family: '{text:Typekit font}', sans-serif};
+			{/block:IfTypekitFont}
+			{CustomCSS}
+		</style>
+	</head>
+	<body class="{block:PermalinkPage}single{/block:PermalinkPage}">
+		<aside>
+			<div class="container">
+				<div class="bloc">
+					<h1><a href="http://{Host}">{text:Name}</a></h1>
+					<h2>{text:Job}</h2>
+				</div>
+				<div class="bloc">
+					<div class="address road space">{text:Street and number}</div>
+					<div class="address city">{text:City and ZIP}</div>
+					<div class="address country">{text:Country}</div>
+				</div>
+				<div class="bloc">
+					{block:IfPhone}
+					<div class="contact phone space"><a href="skype:{text:Phone}">Call me</a></div>
+					{/block:IfPhone}
+					<div class="contact email"><a href="mailto:{text:Email}">Email me</a></div>
+				</div>
+			</div>
+		</aside>
+		<section id="content">
+			<div class="view">
+				{block:Posts}
+					{block:Photo}
+						<img src="{PhotoURL-HighRes}" class="autopagerize_page_element" />
+					{/block:Photo}
+				{/block:Posts}
+			</div>
+		</section>
+		<script src="http://static.tumblr.com/kbkpvxu/489mthcic/jquery.min.js"></script>
+		<script src="http://static.tumblr.com/kbkpvxu/Auimthcj8/touchwipe.min.js"></script>
+		<script src="http://static.tumblr.com/kbkpvxu/Fn0mtjamg/scripts.js"></script>
+		{block:IfGoogleAnalyticsID}
+			<script>
+				(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+					(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+					m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+				})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+				ga('create', '{text:Google Analytics ID}', 'tumblr.com');
+				ga('send', 'pageview');
+			</script>
+		{/block:IfGoogleAnalyticsID}
+	</body>
 </html>

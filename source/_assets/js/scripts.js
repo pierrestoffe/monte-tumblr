@@ -13,6 +13,7 @@
 	img = $('img');
 	imgf = $('img:first');
 	imgl = $('img:last');
+	single = $('body').hasClass('single');
 
 	// Parameters
 
@@ -151,7 +152,7 @@
 	// Next image | DESKTOP
 
 	function prev(){ // Previous function
-		if(ok == true){
+		if(ok == true && !single){
 			ok = false;
 			old = $('.visible');
 			old.css({'z-index': 10});
@@ -170,7 +171,7 @@
 	// Previous image | DESKTOP
 
 	function next(){ // Next function
-		if(ok == true){
+		if(ok == true && !single){
 			ok = false;
 			old = $('.visible');
 			old.css({'z-index': 10});

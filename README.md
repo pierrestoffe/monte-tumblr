@@ -58,6 +58,8 @@ Not happy with the default font? You've got two choices here:
 
 - You're looking for a free solution? Then you just need to type the exact name of the [Google Web Font](http://www.google.com/fonts) you want into the 'Google Web Fonts' field (for example, PT Sans or Open Sans or Gudea) and the font code (same as the previous field but with spaces replaced by a +) into the 'Google Web Fonts short' field (for example, PT+Sans or Open+Sans or Gudea).
 
+Be sure to leave the unneeded fields empty.
+
 #### Google Analytics
 
 Interested in knowing who visits your website? Then you've probably already set up a [Google Analytics](http://google.com/analytics/web/) account. To make it work with Monte, you'll just need to insert your personal code into the 'Google Analytics ID' field.
