@@ -41,7 +41,8 @@ Don't forget to save everything, reload the page and fill in the variables in th
 
 ## How to use
 
-Just add a new image post containing only one photograph, no description or anything, then publish it. 
+Just add a new image post containing only one photograph, no description or anything, then publish it.
+
 That's it.
 
 ## Customization
