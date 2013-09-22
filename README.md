@@ -39,12 +39,6 @@ Oh yes, that's it, already...
 
 Don't forget to save everything, reload the page and fill in the variables in the Customize page (http://www.tumblr.com/customize/your-blog-shortname).
 
-## How to use
-
-Just add a new image post containing only one photograph, no description or anything, then publish it.
-
-That's it.
-
 ## Customization
 
 #### Personal information
@@ -65,7 +59,8 @@ Be sure to leave the unneeded fields empty.
 
 Interested in knowing who visits your website? Then you've probably already set up a [Google Analytics](http://google.com/analytics/web/) account. To make it work with Monte, you'll just need to insert your personal code into the 'Google Analytics ID' field.
 
-#### Any other ideas
+## How to use
 
-If you like CSS and have ideas on how to improve Monte, feel free to add your own custom CSS. 
-And don't hesitate to fork this repo!
+Just add a new image post containing only one photograph, no description or anything, then publish it.
+
+That's it.
