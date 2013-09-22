@@ -18,7 +18,7 @@ Nothing better than a demonstration to understand how simple Monte is, so [pleas
 
 ## Installation
 
-Due to the lack of support for text, quote, link, chat, audio and video post types in Monte, I can't submit my theme to the [Tumblr Theme Garden](http://www.tumblr.com/themes/). It means you'll have to add this theme to your website by hand.
+Due to the lack of support for text, quote, link, chat, audio and video post types in Monte, I can't submit it to the [Tumblr Theme Garden](http://www.tumblr.com/themes/). It means you'll have to add this theme to your website by hand.
 
 You've never installed a theme on Tumblr? Don't worry, it's easy as pie... and really fast!
 
