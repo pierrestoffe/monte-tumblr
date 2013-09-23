@@ -49,7 +49,7 @@ Once installed, you'll be able to add your personal information: your name, your
 
 Not happy with the default font? You've got two choices here:
 
-- You've got a [Typekit](https://typekit.com/fonts) subscription? Then you need to insert the 7-digit code relative to your kit into the 'Typekit code' field and set the font shortname into the 'Typekit font' field.
+- You've got a [Typekit](https://typekit.com/fonts) subscription? Then you need to insert the 7-digit code relative to your kit into the 'Typekit code' field and set the font shortname (eg. proxima-nova) into the 'Typekit font' field.
 
 - You're looking for a free solution? Then you just need to type the exact name of the [Google Web Font](http://www.google.com/fonts) you want into the 'Google Web Fonts' field (for example, PT Sans or Open Sans or Gudea) and the font code (same as the previous field but with spaces replaced by a +) into the 'Google Web Fonts short' field (for example, PT+Sans or Open+Sans or Gudea).
 
